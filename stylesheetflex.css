@@ -1,0 +1,41 @@
+/* Referer til et id */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 1200px;
+  align-items: flex-start;
+}
+
+#Pingvininfo {
+  background-color: #ddd;
+  width: 50%;
+}
+#ListeDyr {
+  background-color: burlywood;
+  width: 50%;
+}
+/* referer til en klasse (class). En klasse kan bruges flere gange */
+.toben{
+    color: red;
+}
+.fireben {
+    color: blue;
+}
+.highlight {
+  background-color: yellow;
+}
+.kasse3 {
+  background-color: orange;
+  margin: 40px;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+.special{
+  order: -1;
+}
+
+.tilsidst{
+  order: 4;
+}
